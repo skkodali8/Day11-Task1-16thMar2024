@@ -1,0 +1,78 @@
+
+body {
+    border: 4px solid #E27D5F;
+    background-color:  #1E8497;
+    border-radius: 15px;
+
+}
+
+
+.heading{
+    text-align: center;
+    font-family :Cambria, Cochin, Georgia, 
+                Times, 'Times New Roman', 
+                serif;
+    text-decoration: underline;
+    font-style: oblique;
+    color: white;
+    
+
+}
+
+
+
+#eventPage {
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color: #F3A795;
+    
+    border: 3px solid white;
+    margin: 40px;
+    padding: 30px;;
+    border-radius: 20px;
+    
+}
+
+#image {
+    justify-content: left;
+    padding: 30px;  
+}
+
+img {
+    width: 300px;
+    border-radius: 25px;
+    border: 3px solid #1E8497;;
+
+}
+
+#data {
+    justify-content: right;
+    text-align: right
+    
+    
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    font-size: 15px;
+    background-color: #1E8497;
+    padding: 3px;
+    margin: 5px;
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;   
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+       
+    }
+  }
